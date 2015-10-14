@@ -1,0 +1,13 @@
+package csjobs.model.dao;
+
+import csjobs.model.User;
+
+public interface UserDao {
+
+    User getUser( Long id );
+
+    User getUser( String email );
+
+    User saveUser( User user );
+
+}

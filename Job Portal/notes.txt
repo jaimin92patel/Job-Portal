@@ -1,0 +1,19 @@
+Login and Logout:
+
+I am using Spring logout and I have customized my login form to use spring security.
+In application context , using <form-login> attributes
+
+Also I have customized both the queries of jdbc-service for user validation.
+
+
+URL:
+
+I have implemented url security for admin and user pages. 
+I am cheking if user is logged in by setting access to authenticated and
+checking the particular role for the url is allowd.
+
+Method:
+
+I am using PostAuthorize annotation for authorization 
+Making sure that only admin or user of the application or rwviewer can view the page
+
